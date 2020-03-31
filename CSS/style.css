@@ -1,0 +1,212 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+    /* Same as above */
+    font: normal 16px Verdana, Geneva, Tahoma, sans-serif;
+
+    line-height: 1.5em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: fuchsia;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+/*
+a:visited{
+    color:lightsalmon
+}
+*/
+
+.button{
+    background-color: #444;
+    color: #bbb;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+}
+
+.button:hover{
+    background: darkred;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /* Same as above */
+    border: 5px red solid;
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dashed;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* Same as above */
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Same as above */
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 2px #333;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 3px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top:400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: url(../images/bgimage.jpg)
+}
+
+.my-list li:nth-child(even){
+    background: green;
+}
